@@ -1,5 +1,5 @@
 <?php
-require('../database.php');
+require('../config.php');
 $db =  new Database();
 if(isset($_POST['reservation'])){
  

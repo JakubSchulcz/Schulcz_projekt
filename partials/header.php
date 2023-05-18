@@ -1,3 +1,7 @@
+<?php
+ require('inc/config.php');
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,10 +61,9 @@ https://templatemo.com/tm-580-woox-travel
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="deals.php">Deals</a></li>
-                        <li><a href="reservation.php">Reservation</a></li>
+                    <?php
+                      print_menu($Header_menu);
+                    ?>   
                     </ul>   
                     <a class='menu-trigger'>
                         <span>Menu</span>

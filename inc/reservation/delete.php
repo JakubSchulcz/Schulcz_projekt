@@ -1,5 +1,5 @@
 <?php
-require('../Database.php');
+require('../config.php');
 $db =  new Database();
 if(isset($_POST['delete_reservation'])){
     try{
